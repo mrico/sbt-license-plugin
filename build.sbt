@@ -2,6 +2,8 @@ sbtPlugin := true
 
 name := "sbt-license-plugin"
 
-organization := "com.banno" 
+organization := "com.banno"
 
-seq(scriptedSettings:_*)
+version := "0.0.4" 
+
+scriptedSettings
